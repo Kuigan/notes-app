@@ -11,3 +11,11 @@ export class Note {
     this.user = user;
   }
 }
+
+/**
+ * Represents the raw structure of notes data, containing an array of notes.
+ */
+
+export type NotesRaw = {
+  notes: Note[]
+}
